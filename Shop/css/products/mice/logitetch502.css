@@ -85,20 +85,21 @@
   }
 
   .box1{
-    margin-left: -20vh;
+    margin-left: -60vh;
     text-align: center;
     z-index: 10;
+    margin-top: 20vh;
   }
 
  .box2{
-    margin-top: -500px;
-    margin-left: 700px;
+    margin-top: -400px;
+    margin-left: 200px;
      text-align: center;
     color: black;
   }
-  
-  .box2 ul li{
-	  list-style: none;
+  .img{
+    width:500px;
+    height:500px;
   }
 
   .btn{
@@ -128,6 +129,10 @@
   }
   .product{
       margin-bottom: 20vw;
+  }
+
+  ul li{
+    list-style: none;
   }
   
   .container1{

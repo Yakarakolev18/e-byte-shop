@@ -85,16 +85,21 @@
   }
 
   .box1{
-    margin-left: -20vh;
+    margin-left: -60vh;
     text-align: center;
     z-index: 10;
+    margin-top: 20vh;
   }
 
  .box2{
-    margin-top: -500px;
-    margin-left: 700px;
+    margin-top: -400px;
+    margin-left: 600px;
      text-align: center;
     color: black;
+  }
+  .img{
+    width:500px;
+    height:500px;
   }
   
   .box2 ul li{
