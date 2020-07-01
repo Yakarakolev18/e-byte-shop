@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #0b0d19;
+}
+
+.text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(0, 154, 228, 0.6);
+    text-align: center;
+}
+
+.text h1{
+    font-size: 8rem;
+    margin: 2rem 0;
+    font-family:"Montserrat", sans-serif;
+}
+
+li, a, button{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    transition: all 0.6s ease 0s;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.nav-list li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-list li a{
+    transition: all 1s ease 0s;
+}
+
+.nav-list li a:hover{
+    color: #009ae4;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0, 154, 228, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0, 154, 228, 0.8);
+}
+
+section {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 100%;
+height: 100vh;
+}
+
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.hero1{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.hero2{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/Ori-and-the-Will-of-the-Wisps-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.hero3{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../IMAGES/image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.section .sponsors{
+    background-color: #009ae4;
+}
+
+section h1{
+font-size: 10rem;
+color:rgba(0, 154, 228, 0.6);
+margin-top: 20%;
+}
+
+section p{
+    margin-left:70px;
+    margin-right:70px;
+    font-size: 5rem;
+    color:#862fde;
+}
+
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:#862fde;
+    font-size:27px;
+    letter-spacing:8px;
+}
+
+.ptext .border{
+    background-color:#009ae4;
+    padding:20px;
+}
+
+.list > li {
+    list-style-type: none;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 5rem;
+    color: #862fde;
+}
+
+
+
+
+
+
